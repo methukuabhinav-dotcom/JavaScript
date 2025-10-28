@@ -1,0 +1,43 @@
+DAY-1
+
+1.write a program to print the result of 2+2 using all the printing statments and using all types of JS.
+2.write a program to print ur name and age using all the printing statments.
+3.write a program to grit a user using all the printing statments.
+4.wirt the difference between inline internal and external js.
+5.explaine the use of doc.write, console.log.
+6.write the difference between syncronous and single thread.
+7.write the defferences between js, java, and pythoon.
+8.write the differences between inner html and inner text.
+
+Research Quations:
+1. explain the following terminologies
+i. declaration
+ii.redeclaration
+iii.intialisation
+iv.assignment
+v.scope
+2.what is hoisting in JS.
+
+DAY-2
+1.write the differences between var, let and constant.
+2. write the differences between block, global, module and function scope.
+3.write the differences between premitive and non-premitive data types.
+4. what are identifiers and explain the rules for identifiers.
+
+DAY-3
+1. differences between parseInt and float.
+2.what is TDZ.
+3.differences betwwen mutable and immutable.
+4.what is type converstion and different ways.
+5.defference between null and undefined.
+
+DAY-4
+1.differences between the following:
+  i.math.floor,ceil,random,round
+2.explain arthamatic operators in JS with examples
+3.write the differences betweendivision and modular division operators
+4.calculate the total of following numbers using division and modular division
+   i.121
+   ii.135
+   iii.1234
+5.explain the differences between increment and decrement 

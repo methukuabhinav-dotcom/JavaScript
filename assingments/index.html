@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal -->
+     <script>
+        document.write('welcom to JS')
+        // document.getElementById('id1').innerHTML=good;
+     </script>
+    <!-- external -->
+     <script src="/day-1/index.js"></script>
+</head>
+<body>
+    <p id="id1">welcome</p>
+    <!-- inline -->
+     <button onclick="document.write(2+2)">click</button>
+     <button onclick="console.log(2+2)">click</button>
+     <button onclick="alert(2+2)">click</button>
+     <button onmouseover="alert(2+2)">click</button>
+     <button ondblclick="alert(2+2)">click</button>
+
+    <!-- internal -->
+     <script>
+        document.getElementById('id1').innerText= 2+2;
+     </script>
+    <!-- external -->
+</body>
+</html>
