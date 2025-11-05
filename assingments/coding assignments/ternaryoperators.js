@@ -85,3 +85,44 @@ console.log(maxvalue)
 // let display=(num3>0&&num3==0)?"+ve even": (num3>0&&num3!=0)?"+ve odd":(num3<0&&num3==0)?"-ve even": "-ve odd"
 // console.log(display)
 
+// 18. Write a program to find the maximum of three numbers using nested ternary operators. 
+// let num3=10
+// let num4=20
+// let num5=18
+// let greater=(num3>num4)? (num3>num5)?"10 is greater":"18 is greater":(num4>num5)? "20 is greater":"18 is greater"
+// console.log(greater)
+
+// 19. Write a program that takes a year as input and uses a ternary operator to determine whether it is a leap year. 
+let year=2024
+let leap=(year%4==0 && year%100!=0 || year%400==0)?"is a leap year":"is not a leap year"
+console.log(leap)
+
+// 20. Write a program that prompts the user for the weight of a package and their location ("domestic" or "international") and uses nested ternary operators to calculate the shipping fee: 
+// ○ Domestic: < 1kg → $5, 1–5kg → $10, > 5kg → $20 
+// ○ International: < 1kg → $10, 1–5kg → $25, > 5kg → $50 
+// let weight=parseInt(prompt("enter weight"))
+// let loc=prompt("enter loc")
+// let price=(loc=="domestic")? (weight<1)?5:(weight<=5)? 10:20: (loc=="international")? (weight<1)?10:(weight<=5)? 15:25:"choose proper loc"
+// console.log(price)
+
+// 21. Write a program that takes two numbers and an operator (+, -, *, /) as input and uses a nested ternary operator to perform the correct calculation. 
+let num3=20
+let num4=30
+let op="*"
+let cal=(op=="+")?num3+num4:(op=="-")?num3-num4:(op=="*")?num3*num4:(op=="/")?num3/num4:"invalid operator"
+console.log(cal)
+
+// 22. Write a program that takes a username and password as input and uses a ternary operator to display "Login Successful" if both match predefined values, otherwise display "Invalid Credentials". 
+// let username=prompt("enter user name")
+// let password=prompt("enter password")
+// let login=(username=="flashabhi"&&password=="Abhinav@123")?"Login Successful":"Invalid Credentials"
+// console.log(login)
+
+// 23. Write a program that takes a day number (1–7) as input and uses a nested ternary operator to display: 
+// ○ "Weekday" for 1–5. 
+// ○ "Weekend" for 6–7. 
+// ○ "Invalid" otherwise. 
+let day=7
+let week=(day>=1&&day<=5)?"weekday":(day==6||day==7)?"weekend":"Inavalid"
+console.log(week)
+

@@ -41,3 +41,34 @@ DAY-4
    ii.135
    iii.1234
 5.explain the differences between increment and decrement 
+
+DAY-5
+1.write the differences between else-if lader and switch case
+2.write the differences between rest and spread operator.
+3.write the differences between default and rest parameters.
+4.expalin the use of return statment in fn.
+
+Research:
+expalin the difference between arrow fns and named fns
+
+DAy-6
+1.WTDB named fn and arrow fn
+2.explain this keyword in JS
+Research
+3.explain strict mood in JS
+4.expalin call, apply, and bind methods
+5.WTDB anonomuse fn and fn expression and arrow fn
+6.explain IiFE
+
+Day-7
+1.ETDB while and for loop
+2.ETDB do-while and while
+3.ETDB for-in and for-of
+4.Explain the followin no.
+  i.natural no.
+  ii.whole no.
+  iii.-ve no.
+  iv.strong no.
+  v.amstrom no.
+  vi.arsth no.
+  vii.perfect no.
